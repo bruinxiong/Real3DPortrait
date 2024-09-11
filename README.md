@@ -10,6 +10,9 @@ This is the official repo of Real3D-Portrait with Pytorch implementation, for on
     <br>
 </p>
 
+## 🔥 Update
+- \[2024.07.02\] We release the training code of the whole system, including audio-to-motion model, image-to-plane model, secc2plane model, and the secc2plane_torso model, please refer to `docs/train_models`. We also release the code to preprocess and binarize the dataset, please refer to `docs/process_data`. Thanks for your patience!
+
 ## You may also interested in 
 - We release the code of GeneFace++, ([https://github.com/yerfor/GeneFacePlusPlus](https://github.com/yerfor/GeneFacePlusPlus)), a NeRF-based person-specific talking face system, which aims at producing high-quality talking face videos with extreme idenetity-similarity of the target person.
 
@@ -31,7 +34,6 @@ deep_3drecon/BFM/
 ├── Exp_Pca.bin
 ├── facemodel_info.mat
 ├── index_mp468_from_mesh35709.npy
-├── mediapipe_in_bfm53201.npy
 └── std_exp.txt
 ```
 
@@ -117,7 +119,7 @@ python inference/real3d_infer.py \
 - [x] **Release Inference Code of Real3D-Portrait.**
 - [x] **Release Gradio Demo of Real3D-Portrait..**
 - [x] **Release Google Colab of Real3D-Portrait..**
-- [ ] **Release Training Code of Real3D-Portrait.**
+- [x] **Release Training Code of Real3D-Portrait.**
 
 # Disclaimer
 Any organization or individual is prohibited from using any technology mentioned in this paper to generate someone's talking video without his/her consent, including but not limited to government leaders, political figures, and celebrities. If you do not comply with this item, you could be in violation of copyright laws.
